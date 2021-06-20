@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(1, 59, 37);
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+}
+
+#alterarHumor {
+    position:absolute; 
+    top:60%;
+    left:65%;
+    height: 8vh;
+    width: 30vh;
+}
+
+#imagem {
+    width: 250px;
+}
+
+.bloco_info1{
+    padding: 10px 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bloco_info{
+    padding: 5px 0;
+    word-spacing: initial;
+    font-size: 35px;
+    text-align: center;
+}

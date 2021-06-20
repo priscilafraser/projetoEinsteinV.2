@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Humor do Einstein</title>
+        <link rel='stylesheet' href='static/style.css'>
+    </head>
+    <body>
+        <div class= 'bloco_info1'>
+            <b>Nome: </b>{{nome}}
+        </div>
+
+        <div class= 'bloco_info1'>
+            <b>Idade: </b>{{idade}}
+        </div>
+
+        <div class="botao">
+            <button id="alterarHumor">Alterar humor</button>
+        </div>
+
+        <div class="bloco_info" id="bloco_humor"></div>
+        
+        <div class="bloco_info">
+            <img id="imagem" src="#"/>
+        </div>
+        
+        <div class="textoVariavel">
+            <script>
+                var someJavaScriptVar3 = '{{ texto1 }}';
+                var someJavaScriptVar4 = '{{ texto2 }}';
+            </script>
+        </div>
+
+        <script>
+            var someJavaScriptVar = '{{ imagem1 }}';
+            var someJavaScriptVar2 = '{{ imagem2 }}';
+        </script>
+
+        <script type="text/javascript" src="static/index.js">
+        </script>
+    </body>
+</html>
+
